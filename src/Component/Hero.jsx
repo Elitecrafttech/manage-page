@@ -4,7 +4,7 @@ import intro from '../images/illustration-intro.svg'
 const Hero = () => {
   return (
     <section className='flex flex-col-reverse md:flex-row
-    items-center justify-center gap-[80px] md:gap-[180px] py-[50px]'>
+    items-center justify-center gap-[80px] md:gap-[110px] lg:gap-[180px] py-[50px]'>
         <div className='flex flex-col items-center md:items-start
         text-center md:text-left gap-[40px]'>
             <h1 className='font-extrabold text-[40px]
