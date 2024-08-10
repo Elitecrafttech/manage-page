@@ -7,7 +7,7 @@ const testimonia = () => {
   return (
     <section className='md:size-full flex flex-col gap-[50px] py-[60px] items-center'>
         <h1 className='self-center font-bold text-[35px] md:text-[40px]'>What they’ve said</h1>
-        <div className='flex flex-col md:flex-row gap-[40px]'>
+        <div className='flex flex-col md:flex-row gap-[40px] md:gap-[20px] lg:gap[40px]'>
             <div className='bg-[#FAFAFA] flex flex-col items-center pb-[30px] px-[25px] gap-[30px] md:gap-0'>
                 <img src={anisha} alt="" className='h-[60px] md:relative bottom-[25px]'/>
                 <div className='flex flex-col items-center gap-[30px] md:gap-[10px]'>
